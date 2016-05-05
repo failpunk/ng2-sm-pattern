@@ -1,0 +1,25 @@
+<section class="section-content section-content--gray">
+  <div class="container">
+
+    <div class="row">
+      <div class="twelve columns">
+        <div class="section-heading">
+          <div class="row">
+            <div class="large-12 columns">
+              <h3>{{title}}</h3>
+              <p>{{subheading}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <app-component-category
+        *ngFor="let category of categories"
+        [category]="category">
+      </app-component-category>  
+    </div>
+    
+  </div>
+</section>

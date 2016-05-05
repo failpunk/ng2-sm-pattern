@@ -14,9 +14,4 @@ describe('App: Ng2Patterns', () => {
       inject([Ng2PatternsAppComponent], (app: Ng2PatternsAppComponent) => {
     expect(app).toBeTruthy();
   }));
-
-  it('should have as title \'ng2-patterns works!\'',
-      inject([Ng2PatternsAppComponent], (app: Ng2PatternsAppComponent) => {
-    expect(app.title).toEqual('ng2-patterns works!');
-  }));
 });
